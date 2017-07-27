@@ -2,4 +2,4 @@
 
 - hosts: "{{ host }}" 
   roles:
-    - { role: "Postgresql" }
+    - { role: "postgresql" }
