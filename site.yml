@@ -1,5 +1,5 @@
 ---
 
-- hosts: hostname 
+- hosts: "{{ host }}" 
   roles:
     - Postgresql
